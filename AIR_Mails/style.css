@@ -1,0 +1,424 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/* navbar  */
+.navbar_main{
+    height: 50px;
+    background-color: rgb(0, 65, 43);
+    display: flex;
+}
+.Sname{
+    font-size: 30px;
+    color:antiquewhite;
+    padding: 7px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 62%;
+ 
+}
+li{
+    
+    margin: 7px 18px;
+    font-size: 22px;
+    text-decoration: none;
+   
+}
+li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/* title register login */
+.reg{
+    color:  rgb(3, 118, 79);
+    margin-top: 30px;
+}
+
+a:hover{
+    color:  rgb(17, 174, 122);
+}
+/* login registration coiteiner */
+.coiteiner{
+    align-items: center;
+    width: 50%;
+    height: 600px;
+    margin: 2% 0px 0px 0px;
+    
+}
+.coiteiner input{
+    padding-left: 10px;
+    margin: 10px 0px;
+    height: 26px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 1px rgb(6 173 117);
+    outline: none;
+    border: 1px solid rgb(3, 118, 79);
+    color: rgb(3, 118, 79);
+}
+.coiteiner input::placeholder{
+    color: rgb(3, 118, 79);
+    padding-left:  3px;
+}
+.coiteiner .dob_input{
+    font-size: 16px;
+    color: rgb(3, 118, 79);
+    padding: 2px;
+    width: 156px;
+}
+label{
+    color:  rgb(3, 118, 79);
+    font-weight:500;
+}
+
+/* redirect link  */
+.log_link,.reg_link{
+    text-decoration: none;
+    color:  rgb(3, 118, 79);
+    position: relative;
+    margin: 20px;
+   
+}
+.link_text{
+    color:  rgb(3, 118, 79);
+    text-decoration: none;
+}
+
+
+button{
+    border-radius: 7px;
+    background-color: rgb(3, 118, 79);
+    color: antiquewhite;
+    height: 30px;
+    width: 65px;
+    border: none;
+    outline: none;
+    margin: 15px 8px 0px 8px;
+}
+
+/* profile page */
+.screen{
+    display: flex;
+}
+
+/* user name div */
+
+.usernamediv{
+    background-color: rgb(225, 253, 244);
+    display: flex;
+    height: 45px;
+    color: rgb(3, 118, 79);
+    overflow: hidden;
+}
+.usernametext{
+    margin-left:1%;
+    padding-top: 5px;
+    overflow: hidden;
+    width: 450px;
+}
+.user_profile{
+    margin-left: 1%;
+    padding-top: 3px;
+}
+.user_profile img{
+    border-radius: 50%;
+}
+
+.logout{
+    margin-left: 55%;
+    font-size: 28px;
+    padding-top: 0px;
+   
+}
+.logout a{
+    text-decoration: none;
+    color: rgb(3, 118, 79);
+}
+/* mail box options  */
+.menu{
+    width: 16%;
+    height: 500px;
+    margin: 16px 3px;
+    /* border: 2px solid black; */
+}
+.menu_item{
+    height: 50px;
+    background-color: rgb(8, 161, 110);
+    border: 1px solid rgb(3, 118, 79);
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+#inbox{
+    background-color: rgb(2, 86, 58);
+}
+    
+
+.menu_text{
+    
+    font-size: 26px;
+    margin-top: 3px;
+    
+}
+.menu_item a{
+    text-decoration: none;
+}
+.menu_text{
+    text-decoration: none;
+    color: aliceblue;
+}
+.compose_btn{
+    width: 95%;
+    background-color: rgb(229, 239, 248);
+    height: 50px;
+    border: 1px solid rgb(3, 118, 79);
+    text-align: center;
+    font-size: 22px;
+    margin: 290px 5px 0px 5px;
+    border-radius: 10px;
+    color: rgb(3, 118, 79);
+}
+
+/* mailbox interface */
+.mail{
+    width: 84%;
+    /* background-color: rgb(255, 0, 0); */
+    height: 500px;
+    margin: 16px 3px;
+}
+.topbar{
+    display: flex;
+}
+.topbar hr{
+    border: 1px solid rgb(3, 118, 79);
+    width: 98%;
+    margin: 0px 10px;
+}
+.allselect{
+   height: 18px;
+width: 18px;
+    margin: 10px;
+}
+.allselect_text{
+    font-size: 24px;
+    color: rgb(3, 118, 79);
+
+}
+.alldelete_box{
+    width: 200px;
+    color: rgb(3, 118, 79);
+    font-size: 22px;
+    margin-left: 600px;
+    display: flex;
+    
+}
+
+.alldelete_box button{
+font-size: 28px;    
+background-color: white;
+color:rgb(3, 118, 79);
+height: 46px;
+width: 32px;
+margin: 0px;
+padding: 2px;
+}
+
+.alldelete_box p{
+    display: inline;
+    margin:6px 7px;
+    font-style: normal;
+}
+/* emails listed fream */
+.air_mails{
+    height: 480px;
+    margin: 4px;
+    
+}
+
+/* email boxs */
+
+.email_box{
+    height: 60px;
+    margin: 5px 2px;
+    background-color:aliceblue;
+    box-shadow: 2px 2px 1px rgb(6 173 117);
+    display: flex;
+    overflow: hidden;
+}
+
+.email_box button{
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+    color: rgb(3, 118, 79);
+    margin: 0px;
+    padding: 0px;
+}
+.email_container{
+    margin: 4px;
+}
+
+.email_check{
+        height: 18px;
+        width: 18px;
+        margin: 21px 21px;
+}
+.e_name{                      
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.e_name p{
+    color: rgb(3, 118, 79);
+    margin: 17px;
+    font-size: 18px;
+}
+.subject{
+    width: 792px;
+    overflow: hidden;
+    text-align: left;
+}
+.subject p{
+    color: rgb(3, 118, 79);
+    margin: 16px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.delete_box{
+    width: 50px;
+    color: rgb(3, 118, 79);
+    font-size: 22px;
+    padding: 15px;
+}
+
+.no_email{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(3, 118, 79);
+    margin-top: 100px;
+}
+
+/* profile new email */
+.new_mail{
+    color: rgb(3, 118, 79);
+    position: fixed;
+    border: 1px solid rgb(3, 118, 79);;
+    border-radius: 10px;
+    background-color: aliceblue;
+    height: 500px;
+    width: 800px;
+    margin: 8% 21%;
+    z-index: 6;
+    display: none;
+    overflow: hidden;
+}
+
+.new_mail input{
+    background-color:rgb(240, 248, 255);
+    /* background-color: black; */
+    padding-left: 10px;
+    margin: 0px 3px;
+    height: 32px;
+    width: 60%;
+    border: 1px solid;
+    border-color:rgba(240, 248, 255,0);
+    outline: none;
+    color: rgb(3, 118, 79);
+    font-size: 18px;
+}
+.new_mail textarea{
+    background-color:rgb(240, 248, 255);
+    /* background-color: black; */
+    margin: 0px;
+    height: 250px;
+    width: 100%;
+    border: 1px solid;
+    border-color:rgba(240, 248, 255,0);
+    outline: none;
+    color: rgb(3, 118, 79);
+    resize: none;
+    font-size: 18px;
+
+}
+.new_mail hr{
+    margin: 5px 0px;
+}
+.new_mail form{
+    margin: 10px 0px;
+}
+.new_mail lable{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight:450;
+    color: rgb(3, 118, 79); 
+}
+.new_mail button{
+   width: 100px;
+   height: 30px;
+}
+
+/* email viwe */
+
+.email_viwe{
+color: rgb(3, 118, 79);
+border: 10px solid rgb(3, 118, 79);
+background-color:rgb(240, 248, 255);
+overflow: hidden;
+height: auto;
+}
+
+.viwe_heder{
+    display: flex;
+    height: 40px;
+    color: rgb(3, 118, 79);
+    padding: 10px;
+    margin-bottom:  30px;
+}
+
+.email_viwe input{
+    background-color:rgb(240, 248, 255);
+    /* background-color: black; */
+    padding-left: 10px;
+    margin: 0px 3px;
+    height: 32px;
+    width: 75%;
+    border: 1px solid;
+    border-color:rgba(240, 248, 255,0);
+    outline: none;
+    color: rgb(3, 118, 79);
+    font-size: 18px;
+}
+.email_viwe hr{
+   margin: 2px 0px;
+}
+.email_viwe textarea{
+    background-color:rgb(240, 248, 255);
+    /* background-color: black; */
+    margin: 0px;
+    min-height: 250px;
+    height: auto;
+    width: 100%;
+    border: 1px solid;
+    border-color:rgba(240, 248, 255,0);
+    outline: none;
+    color: rgb(3, 118, 79);
+    font-size: 18px;
+    overflow: auto;
+}
+.email_viwe label{
+    margin-left: 5px;
+    font-size: 18px;
+    color: rgb(3, 118, 79); 
+}
+.cross{
+
+    color: rgb(3, 118, 79);
+    font-size: 32px;
+    margin-left: 85%;
+    padding: 0px;
+    outline: none;
+    cursor: pointer;
+}
